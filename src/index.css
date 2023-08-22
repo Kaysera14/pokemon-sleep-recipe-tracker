@@ -1,0 +1,49 @@
+:root {
+	--body-font-family: "Poppins", sans-serif;
+	--header-font-family: "Montserrat", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-weight: 500;
+	color: #323ade;
+	text-decoration: inherit;
+}
+a:hover {
+	color: #323ade;
+}
+
+body {
+	font-family: var(--body-font-family);
+	overflow: hidden;
+	background-color: grey;
+}
+
+div#root {
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+	height: 100vh;
+	gap: 1rem;
+}
+
+img {
+	display: block;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+h1 {
+	font-family: var(--header-font-family);
+}

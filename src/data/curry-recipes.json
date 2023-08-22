@@ -1,0 +1,103 @@
+[
+	{
+		"Name": "Mixed Curry",
+		"Total Ingredients": "0",
+		"Ingredients Required": "",
+		"Note": "You get this by using a combination of ingredients that doesn't result in a special dish"
+	},
+	{
+		"Name": "Fancy Apple Curry",
+		"Total Ingredients": "7",
+		"Ingredients Required": "7 Fancy Apple",
+		"Note": ""
+	},
+	{
+		"Name": "Mild Honey Curry",
+		"Total Ingredients": "7",
+		"Ingredients Required": "7 Honey",
+		"Note": ""
+	},
+	{
+		"Name": "Simple Chowder",
+		"Total Ingredients": "7",
+		"Ingredients Required": "7 Moomoo Milk",
+		"Note": ""
+	},
+	{
+		"Name": "Beanburger Curry",
+		"Total Ingredients": "8",
+		"Ingredients Required": "8 Bean Sausage",
+		"Note": ""
+	},
+	{
+		"Name": "Drought Katsu Curry",
+		"Total Ingredients": "15",
+		"Ingredients Required": "10 Bean Sausage, 5 Pure Oil",
+		"Note": ""
+	},
+	{
+		"Name": "Solar Power Tomato Curry",
+		"Total Ingredients": "15",
+		"Ingredients Required": "5 Fiery Herb, 10 Snoozy Tomato",
+		"Note": ""
+	},
+	{
+		"Name": "Hearty Cheeseburger Curry",
+		"Total Ingredients": "16",
+		"Ingredients Required": "8 Bean Sausage, 8 Moomoo Milk",
+		"Note": ""
+	},
+	{
+		"Name": "Melty Omelette Curry",
+		"Total Ingredients": "16",
+		"Ingredients Required": "10 Fancy Egg, 6 Snoozy Tomato",
+		"Note": ""
+	},
+	{
+		"Name": "Soft Potato Chowder",
+		"Total Ingredients": "22",
+		"Ingredients Required": "4 Tasty Mushroom, 8 Soft Potato, 10 Moomoo Milk",
+		"Note": ""
+	},
+	{
+		"Name": "Spore Mushroom Curry",
+		"Total Ingredients": "23",
+		"Ingredients Required": "14 Tasty Mushroom, 9 Soft Potato",
+		"Note": ""
+	},
+	{
+		"Name": "Bulk Up Bean Curry",
+		"Total Ingredients": "26",
+		"Ingredients Required": "4 Fancy Egg, 4 Fiery Herb, 6 Bean Sausage, 12 Greengrass Soybeans",
+		"Note": ""
+	},
+	{
+		"Name": "Spicy Leek Curry",
+		"Total Ingredients": "32",
+		"Ingredients Required": "14 Large Leek, 8 Fiery Herb, 10 Warming Ginger",
+		"Note": ""
+	},
+	{
+		"Name": "Grilled Tail Curry",
+		"Total Ingredients": "33",
+		"Ingredients Required": "25 Fiery Herb, 8 Slowpoke Tail",
+		"Note": ""
+	},
+	{
+		"Name": "Egg Bomb Curry",
+		"Total Ingredients": "35",
+		"Ingredients Required": "8 Fancy Egg, 4 Soft Potato, 11 Fancy Apple, 12 Honey",
+		"Note": ""
+	},
+	{
+		"Name": "Ninja Curry",
+		"Total Ingredients": "38",
+		"Ingredients Required": "9 Large Leek, 5 Tasty Mushroom, 9 Bean Sausage, 15 Greengrass Soybeans",
+		"Note": ""
+	},
+	{
+		"Name": "Dream Eater Butter Curry",
+		"Total Ingredients": "45",
+		"Ingredients Required": "8 Soft Potato, 10 Moomoo Milk, 15 Snoozy Tomato, 12 Soothing Cacao"
+	}
+]
