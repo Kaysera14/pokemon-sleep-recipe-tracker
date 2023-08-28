@@ -1,103 +1,132 @@
 [
 	{
-		"Name": "Mixed Curry",
-		"Total Ingredients": "0",
-		"Ingredients Required": "",
-		"Note": "You get this by using a combination of ingredients that doesn't result in a special dish"
+		"name": "Mixed Curry",
+		"totalIngredients": "0",
+		"ingredientsRequired": {},
+		"image": "/assets/curries/mixedcurry.png"
 	},
 	{
-		"Name": "Fancy Apple Curry",
-		"Total Ingredients": "7",
-		"Ingredients Required": "7 Fancy Apple",
-		"Note": ""
+		"name": "Fancy Apple Curry",
+		"totalIngredients": "7",
+		"ingredientsRequired": { "fancyapple": "7" },
+		"image": "/assets/curries/fancyapplecurry.png"
 	},
 	{
-		"Name": "Mild Honey Curry",
-		"Total Ingredients": "7",
-		"Ingredients Required": "7 Honey",
-		"Note": ""
+		"name": "Mild Honey Curry",
+		"totalIngredients": "7",
+		"ingredientsRequired": { "honey": "7" },
+		"image": "/assets/curries/mildhoneycurry.png"
 	},
 	{
-		"Name": "Simple Chowder",
-		"Total Ingredients": "7",
-		"Ingredients Required": "7 Moomoo Milk",
-		"Note": ""
+		"name": "Simple Chowder",
+		"totalIngredients": "7",
+		"ingredientsRequired": { "moomoomilk": "7" },
+		"image": "/assets/curries/simplechowder.png"
 	},
 	{
-		"Name": "Beanburger Curry",
-		"Total Ingredients": "8",
-		"Ingredients Required": "8 Bean Sausage",
-		"Note": ""
+		"name": "Beanburger Curry",
+		"totalIngredients": "8",
+		"ingredientsRequired": { "beansausage": "8" },
+		"image": "/assets/curries/beanburgercurry.png"
 	},
 	{
-		"Name": "Drought Katsu Curry",
-		"Total Ingredients": "15",
-		"Ingredients Required": "10 Bean Sausage, 5 Pure Oil",
-		"Note": ""
+		"name": "Drought Katsu Curry",
+		"totalIngredients": "15",
+		"ingredientsRequired": { "beansausage": "10", "pureoil": "5" },
+		"image": "/assets/curries/droughtkatsucurry.png"
 	},
 	{
-		"Name": "Solar Power Tomato Curry",
-		"Total Ingredients": "15",
-		"Ingredients Required": "5 Fiery Herb, 10 Snoozy Tomato",
-		"Note": ""
+		"name": "Solar Power Tomato Curry",
+		"totalIngredients": "15",
+		"ingredientsRequired": { "fieryherb": "5", "snoozytomato": "10" },
+		"image": "/assets/curries/solarpowertomatocurry.png"
 	},
 	{
-		"Name": "Hearty Cheeseburger Curry",
-		"Total Ingredients": "16",
-		"Ingredients Required": "8 Bean Sausage, 8 Moomoo Milk",
-		"Note": ""
+		"name": "Hearty Cheeseburger Curry",
+		"totalIngredients": "16",
+		"ingredientsRequired": { "beansausage": "8", "moomoomilk": "8" },
+		"image": "/assets/curries/heartycheeseburgercurry.png"
 	},
 	{
-		"Name": "Melty Omelette Curry",
-		"Total Ingredients": "16",
-		"Ingredients Required": "10 Fancy Egg, 6 Snoozy Tomato",
-		"Note": ""
+		"name": "Melty Omelette Curry",
+		"totalIngredients": "16",
+		"ingredientsRequired": { "fancyegg": "10", "snoozytomato": "6" },
+		"image": "/assets/curries/meltyomelettecurry.png"
 	},
 	{
-		"Name": "Soft Potato Chowder",
-		"Total Ingredients": "22",
-		"Ingredients Required": "4 Tasty Mushroom, 8 Soft Potato, 10 Moomoo Milk",
-		"Note": ""
+		"name": "Soft Potato Chowder",
+		"totalIngredients": "22",
+		"ingredientsRequired": {
+			"tastymushroom": "4",
+			"softpotato": "8",
+			"moomoomilk": "10"
+		},
+		"image": "/assets/curries/softpotatochowder.png"
 	},
 	{
-		"Name": "Spore Mushroom Curry",
-		"Total Ingredients": "23",
-		"Ingredients Required": "14 Tasty Mushroom, 9 Soft Potato",
-		"Note": ""
+		"name": "Spore Mushroom Curry",
+		"totalIngredients": "23",
+		"ingredientsRequired": { "tastymushroom": "14", "softpotato": "9" },
+		"image": "/assets/curries/sporemushroomcurry.png"
 	},
 	{
-		"Name": "Bulk Up Bean Curry",
-		"Total Ingredients": "26",
-		"Ingredients Required": "4 Fancy Egg, 4 Fiery Herb, 6 Bean Sausage, 12 Greengrass Soybeans",
-		"Note": ""
+		"name": "Bulk Up Bean Curry",
+		"totalIngredients": "26",
+		"ingredientsRequired": {
+			"fancyegg": "4",
+			"fieryherb": "4",
+			"beansausage": "6",
+			"greengrasssoybeans": "12"
+		},
+		"image": "/assets/curries/bulkupbeancurry.png"
 	},
 	{
-		"Name": "Spicy Leek Curry",
-		"Total Ingredients": "32",
-		"Ingredients Required": "14 Large Leek, 8 Fiery Herb, 10 Warming Ginger",
-		"Note": ""
+		"name": "Spicy Leek Curry",
+		"totalIngredients": "32",
+		"ingredientsRequired": {
+			"largeleek": "14",
+			"fieryherb": "8",
+			"warmingginger": "10"
+		},
+		"image": "/assets/curries/spicyleekcurry.png"
 	},
 	{
-		"Name": "Grilled Tail Curry",
-		"Total Ingredients": "33",
-		"Ingredients Required": "25 Fiery Herb, 8 Slowpoke Tail",
-		"Note": ""
+		"name": "Grilled Tail Curry",
+		"totalIngredients": "33",
+		"ingredientsRequired": { "fieryherb": "25", "slowpoketail": "8" },
+		"image": "/assets/curries/grilledtailcurry.png"
 	},
 	{
-		"Name": "Egg Bomb Curry",
-		"Total Ingredients": "35",
-		"Ingredients Required": "8 Fancy Egg, 4 Soft Potato, 11 Fancy Apple, 12 Honey",
-		"Note": ""
+		"name": "Egg Bomb Curry",
+		"totalIngredients": "35",
+		"ingredientsRequired": {
+			"fancyegg": "8",
+			"softpotato": "4",
+			"fancyapple": "11",
+			"honey": "12"
+		},
+		"image": "/assets/curries/eggbombcurry.png"
 	},
 	{
-		"Name": "Ninja Curry",
-		"Total Ingredients": "38",
-		"Ingredients Required": "9 Large Leek, 5 Tasty Mushroom, 9 Bean Sausage, 15 Greengrass Soybeans",
-		"Note": ""
+		"name": "Ninja Curry",
+		"totalIngredients": "38",
+		"ingredientsRequired": {
+			"largeleek": "9",
+			"tastymushroom": "5",
+			"beansausage": "9",
+			"greengrasssoybeans": "15"
+		},
+		"image": "/assets/curries/ninjacurry.png"
 	},
 	{
-		"Name": "Dream Eater Butter Curry",
-		"Total Ingredients": "45",
-		"Ingredients Required": "8 Soft Potato, 10 Moomoo Milk, 15 Snoozy Tomato, 12 Soothing Cacao"
+		"name": "Dream Eater Butter Curry",
+		"totalIngredients": "45",
+		"ingredientsRequired": {
+			"softpotato": "8",
+			"moomoomilk": "10",
+			"snoozytomato": "15",
+			"soothingcacao": "12"
+		},
+		"image": "/assets/curries/dreameaterbuttercurry.png"
 	}
 ]

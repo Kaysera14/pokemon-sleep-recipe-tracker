@@ -1,0 +1,164 @@
+[
+	{
+		"name": "Mixed Salad",
+		"totalIngredients": "0",
+		"ingredientsRequired": {},
+		"image": "/assets/salads/mixedsalad.png"
+	},
+	{
+		"name": "Bean Ham Salad",
+		"totalIngredients": "8",
+		"ingredientsRequired": {
+			"beansausage": "8"
+		},
+		"image": "/assets/salads/beanhamsalad.png"
+	},
+	{
+		"name": "Fancy Apple Salad",
+		"totalIngredients": "8",
+		"ingredientsRequired": {
+			"fancyapple": "8"
+		},
+		"image": "/assets/salads/fancyapplesalad.png"
+	},
+	{
+		"name": "Snoozy Tomato Salad",
+		"totalIngredients": "8",
+		"ingredientsRequired": {
+			"snoozytomato": "8"
+		},
+		"image": "/assets/salads/snoozytomatosalad.png"
+	},
+	{
+		"name": "Immunity Leek Salad",
+		"totalIngredients": "15",
+		"ingredientsRequired": {
+			"largeleek": "10",
+			"warmingginger": "5"
+		},
+		"image": "/assets/salads/immunityleeksalad.png"
+	},
+	{
+		"name": "Heat Wave Tofu Salad",
+		"totalIngredients": "16",
+		"ingredientsRequired": {
+			"fieryherb": "6",
+			"greengrasssoybeans": "10"
+		},
+		"image": "/assets/salads/heatwavetofusalad.png"
+	},
+	{
+		"name": "Snow Cloak Caesar Salad",
+		"totalIngredients": "16",
+		"ingredientsRequired": {
+			"beansausage": "6",
+			"moomoomilk": "10"
+		},
+		"image": "/assets/salads/snowcloakcaesarsalad.png"
+	},
+	{
+		"name": "Contrary Chocolate Meat Salad",
+		"totalIngredients": "23",
+		"ingredientsRequired": {
+			"beansausage": "9",
+			"soothingcacao": "14"
+		},
+		"image": "/assets/salads/contrarychocolatemeatsalad.png"
+	},
+	{
+		"name": "Water Veil Tofu Salad",
+		"totalIngredients": "16",
+		"ingredientsRequired": {
+			"snoozytomato": "6",
+			"greengrasssoybeans": "10"
+		},
+		"image": "/assets/salads/waterveiltofusalad.png"
+	},
+	{
+		"name": "Superpower Extreme Salad",
+		"totalIngredients": "23",
+		"ingredientsRequired": {
+			"fancyegg": "5",
+			"softpotato": "3",
+			"beansausage": "9",
+			"warmingginger": "6"
+		},
+		"image": "/assets/salads/superpowerextremesalad.png"
+	},
+	{
+		"name": "Dazzling Apple Cheese Salad",
+		"totalIngredients": "23",
+		"ingredientsRequired": {
+			"fancyapple": "15",
+			"moomoomilk": "5",
+			"pureoil": "3"
+		},
+		"image": "/assets/salads/dazzlingapplecheesesalad.png"
+	},
+	{
+		"name": "Moomoo Caprese Salad",
+		"totalIngredients": "27",
+		"ingredientsRequired": {
+			"moomoomilk": "12",
+			"honey": "5",
+			"pureoil": "5",
+			"snoozytomato": "5"
+		},
+		"image": "/assets/salads/moomoocapresesalad.png"
+	},
+	{
+		"name": "Overheat Ginger Salad",
+		"totalIngredients": "35",
+		"ingredientsRequired": {
+			"fieryherb": "17",
+			"warmingginger": "10",
+			"snoozytomato": "8"
+		},
+		"image": "/assets/salads/overheatgingersalad.png"
+	},
+	{
+		"name": "Spore Mushroom Salad",
+		"totalIngredients": "41",
+		"ingredientsRequired": {
+			"tastymushroom": "17",
+			"honey": "8",
+			"pureoil": "8",
+			"snoozytomato": "8"
+		},
+		"image": "/assets/salads/sporemushroomsalad.png"
+	},
+	{
+		"name": "Gluttony Potato Salad",
+		"totalIngredients": "50",
+		"ingredientsRequired": {
+			"fancyegg": "9",
+			"softpotato": "14",
+			"fancyapple": "6",
+			"beansausage": "7",
+			"snoozytomato": "14"
+		},
+		"image": "/assets/salads/gluttonypotatosalad.png"
+	},
+	{
+		"name": "Slowpoke Tail Pepper Salad",
+		"totalIngredients": "50",
+		"ingredientsRequired": {
+			"fieryherb": "10",
+			"honey": "15",
+			"pureoil": "15",
+			"slowpoketail": "10"
+		},
+		"image": "/assets/salads/slowpoketailpeppersalad.png"
+	},
+	{
+		"name": "Ninja Salad",
+		"totalIngredients": "53",
+		"ingredientsRequired": {
+			"largeleek": "15",
+			"tastymushroom": "12",
+			"warmingginger": "11",
+			"greengrasssoybeans": "15"
+		},
+		"image": "/assets/salads/ninjasalad.png"
+	}
+]

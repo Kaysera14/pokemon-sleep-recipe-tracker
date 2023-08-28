@@ -1,0 +1,159 @@
+[
+	{
+		"name": "Mixed Juice",
+		"totalIngredients": "0",
+		"ingredientsRequired": {},
+		"image": "/assets/desserts/mixedjuice.png"
+	},
+	{
+		"name": "Warm Moomoo Milk",
+		"totalIngredients": "7",
+		"ingredientsRequired": {
+			"moomoomilk": 7
+		},
+		"image": "/assets/desserts/warmmoomoomilk.png"
+	},
+	{
+		"name": "Fancy Apple Juice",
+		"totalIngredients": "8",
+		"ingredientsRequired": {
+			"fancyapple": 8
+		},
+		"image": "/assets/desserts/fancyapplejuice.png"
+	},
+	{
+		"name": "Craft Soda Pop",
+		"totalIngredients": "9",
+		"ingredientsRequired": {
+			"honey": 9
+		},
+		"image": "/assets/desserts/craftsodapop.png"
+	},
+	{
+		"name": "Fluffy Sweet Potatoes",
+		"totalIngredients": "14",
+		"ingredientsRequired": {
+			"softpotato": 9,
+			"moomoomilk": 5
+		},
+		"image": "/assets/desserts/fluffysweetpotatoes.png"
+	},
+	{
+		"name": "Cloud Nine Soy Cake",
+		"totalIngredients": "15",
+		"ingredientsRequired": {
+			"fancyegg": 8,
+			"greengrasssoybeans": 7
+		},
+		"image": "/assets/desserts/cloudninesoycake.png"
+	},
+	{
+		"name": "Lucky Chant Apple Pie",
+		"totalIngredients": "16",
+		"ingredientsRequired": {
+			"fancyapple": 12,
+			"moomoomilk": 4
+		},
+		"image": "/assets/desserts/luckychantapplepie.png"
+	},
+	{
+		"name": "Ember Ginger Tea",
+		"totalIngredients": "16",
+		"ingredientsRequired": {
+			"fancyapple": 7,
+			"warmingginger": 9
+		},
+		"image": "/assets/desserts/embergingertea.png"
+	},
+	{
+		"name": "Stalwart Vegetable Juice",
+		"totalIngredients": "16",
+		"ingredientsRequired": {
+			"fancyapple": 7,
+			"snoozytomato": 9
+		},
+		"image": "/assets/desserts/stalwartvegetablejuice.png"
+	},
+	{
+		"name": "Huge Power Soy Donuts",
+		"totalIngredients": "22",
+		"ingredientsRequired": {
+			"pureoil": 9,
+			"soothingcacao": 7,
+			"greengrasssoybeans": 6
+		},
+		"image": "/assets/desserts/hugepowersoydonuts.png"
+	},
+	{
+		"name": "Big Malasada",
+		"totalIngredients": "23",
+		"ingredientsRequired": {
+			"moomoomilk": 7,
+			"honey": 6,
+			"pureoil": 10
+		},
+		"image": "/assets/desserts/bigmalasada.png"
+	},
+	{
+		"name": "Hustle Protein Smoothie",
+		"totalIngredients": "23",
+		"ingredientsRequired": {
+			"soothingcacao": 8,
+			"greengrasssoybeans": 15
+		},
+		"image": "/assets/desserts/hustleproteinsmoothie.png"
+	},
+	{
+		"name": "Sweet Scent Chocolate Cake",
+		"totalIngredients": "24",
+		"ingredientsRequired": {
+			"moomoomilk": 7,
+			"honey": 9,
+			"soothingcacao": 8
+		},
+		"image": "/assets/desserts/sweetscentchocolatecake.png"
+	},
+	{
+		"name": "Lovely Kiss Smoothie",
+		"totalIngredients": "35",
+		"ingredientsRequired": {
+			"fancyapple": 11,
+			"moomoomilk": 9,
+			"honey": 7,
+			"soothingcacao": 8
+		},
+		"image": "/assets/desserts/lovelykisssmoothie.png"
+	},
+	{
+		"name": "Neroli's Restorative Tea",
+		"totalIngredients": "35",
+		"ingredientsRequired": {
+			"tastymushroom": 9,
+			"fancyapple": 15,
+			"warmingginger": 11
+		},
+		"image": "/assets/desserts/nerolisrestorativetea.png"
+	},
+	{
+		"name": "Steadfast Ginger Cookies",
+		"totalIngredients": "35",
+		"ingredientsRequired": {
+			"fancyegg": 4,
+			"honey": 14,
+			"warmingginger": 12,
+			"soothingcacao": 5
+		},
+		"image": "/assets/desserts/steadfastgingercookies.png"
+	},
+	{
+		"name": "Jigglypuff's Fruity Flan",
+		"totalIngredients": "55",
+		"ingredientsRequired": {
+			"fancyegg": 15,
+			"fancyapple": 10,
+			"moomoomilk": 10,
+			"honey": 20
+		},
+		"image": "/assets/desserts/jigglypuffsfruityflan.png"
+	}
+]

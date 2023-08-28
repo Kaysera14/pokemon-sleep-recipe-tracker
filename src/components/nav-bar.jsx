@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function NavBar() {
 	return (
 		<>
@@ -7,18 +9,37 @@ export function NavBar() {
 						display: "flex",
 						listStyle: "none",
 						justifyContent: "space-evenly",
+						width: "30.5rem",
+						height: "2rem",
+						backgroundColor: "var(--secondary-color)",
 						border: "1px solid black",
 						borderRadius: "2rem",
+						alignItems: "center",
 					}}
 				>
 					<li>
-						<a href="/recipes/curry">Curries</a>
+						<Link
+							to="/recipes/curry"
+							style={{ color: "var(--tertiary-color)" }}
+						>
+							Curries
+						</Link>
 					</li>
 					<li>
-						<a href="/recipes/drinks-desserts">Drinks/Desserts</a>
+						<Link
+							to="/recipes/drinks-desserts"
+							style={{ color: "var(--tertiary-color)" }}
+						>
+							Drinks/Desserts
+						</Link>
 					</li>
 					<li>
-						<a href="/recipes/salads">Salads</a>
+						<Link
+							to="/recipes/salads"
+							style={{ color: "var(--tertiary-color)" }}
+						>
+							Salads
+						</Link>
 					</li>
 				</ul>
 			</section>

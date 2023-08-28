@@ -1,23 +1,26 @@
+import { Link } from "react-router-dom";
+import { NavBar } from "./nav-bar";
+
 export function Header() {
 	return (
-		<header
-			style={{
-				display: "flex",
-				flexDirection: "column",
-				alignItems: "center",
-				backgroundColor: "grey",
-				border: "1px solid black",
-				borderRadius: "2rem",
-			}}
-		>
-			<a href="/">
-				<img
-					style={{ width: "15.625rem" }}
-					src="https://imgur.com/UIXuHPh.png"
-					alt="logo de pokemon sleep"
-				/>
-				Recipe Tracker
-			</a>
-		</header>
+		<>
+			<header
+				style={{
+					display: "flex",
+					flexDirection: "column",
+					alignItems: "center",
+					gap: "1rem",
+				}}
+			>
+				<Link to="/">
+					<img
+						style={{ width: "15.625rem" }}
+						src="/assets/logo.png"
+						alt="logo de pokemon sleep"
+					/>
+				</Link>
+				<NavBar />
+			</header>
+		</>
 	);
 }
