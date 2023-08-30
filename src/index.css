@@ -1,10 +1,10 @@
 :root {
 	--body-font-family: "Poppins", sans-serif;
 	--header-font-family: "Montserrat", sans-serif;
-	--primary-color: #222831;
-	--secondary-color: #393e46;
-	--tertiary-color: #00adb5;
-	--quaternary-color: #eeeeee;
+	--primary-color: #001c30;
+	--secondary-color: #176b87;
+	--tertiary-color: #64ccc5;
+	--quaternary-color: #dafffb;
 }
 
 * {

@@ -3,12 +3,15 @@ export function IngredientsRequiredToImages({ recipes }) {
 		([ingredient, quantity]) => {
 			return (
 				<>
-					<span key={quantity}>{`${quantity}x `}</span>
+					<span
+						key={quantity}
+						style={{ color: "var(--quaternary-color)" }}
+					>{`\n${quantity}x `}</span>
 					<img
 						key={ingredient}
 						src={`/assets/ingredients/${ingredient}.png`}
 						alt={`Picture of: ${ingredient}`}
-						style={{ width: "3rem" }}
+						style={{ width: "2rem" }}
 					/>
 				</>
 			);

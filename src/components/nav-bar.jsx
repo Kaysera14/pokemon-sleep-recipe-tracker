@@ -22,7 +22,7 @@ export function NavBar() {
 							to="/recipes/curry"
 							style={{ color: "var(--tertiary-color)" }}
 						>
-							Curries
+							<b>Curries</b>
 						</Link>
 					</li>
 					<li>
@@ -30,7 +30,7 @@ export function NavBar() {
 							to="/recipes/drinks-desserts"
 							style={{ color: "var(--tertiary-color)" }}
 						>
-							Drinks/Desserts
+							<b>Drinks/Desserts</b>
 						</Link>
 					</li>
 					<li>
@@ -38,7 +38,7 @@ export function NavBar() {
 							to="/recipes/salads"
 							style={{ color: "var(--tertiary-color)" }}
 						>
-							Salads
+							<b>Salads</b>
 						</Link>
 					</li>
 				</ul>

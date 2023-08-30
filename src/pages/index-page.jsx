@@ -1,3 +1,7 @@
 export function IndexPage() {
-	return <h2>Welcome to the Recipe Tracker for Pokémon Sleep</h2>;
+	return (
+		<h2 style={{ color: "var(--quaternary-color)" }}>
+			Welcome to the Recipe Tracker for Pokémon Sleep
+		</h2>
+	);
 }

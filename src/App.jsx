@@ -5,6 +5,7 @@ import { CurryRecipes } from "./pages/curry-recipes-page";
 import { IndexPage } from "./pages/index-page";
 import { SaladRecipes } from "./pages/salads-recipes-page";
 import { DrinksDessertsRecipes } from "./pages/drinks-desserts-recipes";
+import { NotFound } from "./pages/not-found";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 					path="/recipes/drinks-desserts"
 					element={<DrinksDessertsRecipes />}
 				/>
+				<Route path="*" element={<NotFound />} />
 			</Routes>
 		</>
 	);
