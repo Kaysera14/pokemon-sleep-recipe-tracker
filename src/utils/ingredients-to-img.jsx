@@ -5,13 +5,13 @@ export function IngredientsRequiredToImages({ recipes }) {
 				<>
 					<span
 						key={quantity}
-						style={{ color: "var(--quaternary-color)" }}
+						className="text-[var(--quaternary-color)]"
 					>{`\n${quantity}x `}</span>
 					<img
 						key={ingredient}
 						src={`/assets/ingredients/${ingredient}.png`}
 						alt={`Picture of: ${ingredient}`}
-						style={{ width: "2rem" }}
+						style={{ width: "2.5rem" }}
 					/>
 				</>
 			);

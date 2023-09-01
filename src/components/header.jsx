@@ -1,25 +1,25 @@
 import { Link } from "react-router-dom";
-import { NavBar } from "./nav-bar";
 
 export function Header() {
 	return (
 		<>
-			<header
-				style={{
-					display: "flex",
-					flexDirection: "column",
-					alignItems: "center",
-					gap: "1rem",
-				}}
-			>
-				<Link to="/">
+			<header className="flex flex-row items-center text-[var(--quaternary-color)] justify-center bg-[var(--secondary-color)] border-b-black min-h-[4rem] border-black border-b">
+				<img
+					className="h-12 "
+					style={{ visibility: "hidden" }}
+					src="/assets/pikachu.png"
+					alt="pikachu with a nightcap"
+				/>
+				<Link className="m-auto" to="/">
+					Recipe Tracker
+				</Link>
+				<Link to="https://youtu.be/wFRTzOzp95M">
 					<img
-						style={{ width: "15.625rem" }}
-						src="/assets/logo.png"
-						alt="logo de pokemon sleep"
+						className="h-12 "
+						src="/assets/pikachu.png"
+						alt="pikachu with a nightcap"
 					/>
 				</Link>
-				<NavBar />
 			</header>
 		</>
 	);

@@ -5,39 +5,24 @@ export function NavBar() {
 		<>
 			<section>
 				<ul
-					style={{
-						display: "flex",
-						listStyle: "none",
-						justifyContent: "space-evenly",
-						width: "30.5rem",
-						height: "2rem",
-						backgroundColor: "var(--secondary-color)",
-						border: "1px solid black",
-						borderRadius: "2rem",
-						alignItems: "center",
-					}}
+					className="flex justify-around items-center w-[23rem] h-9 bg-[var(--secondary-color)] list-none 
+					border border-black rounded-full mt-4 md:mt-0 md:w-screen md:rounded-none md:border-0"
 				>
 					<li>
-						<Link
-							to="/recipes/curry"
-							style={{ color: "var(--tertiary-color)" }}
-						>
+						<Link to="/recipes/curry" className="text-[var(--tertiary-color)]">
 							<b>Curries</b>
 						</Link>
 					</li>
 					<li>
 						<Link
 							to="/recipes/drinks-desserts"
-							style={{ color: "var(--tertiary-color)" }}
+							className="text-[var(--tertiary-color)]"
 						>
 							<b>Drinks/Desserts</b>
 						</Link>
 					</li>
 					<li>
-						<Link
-							to="/recipes/salads"
-							style={{ color: "var(--tertiary-color)" }}
-						>
+						<Link to="/recipes/salads" className="text-[var(--tertiary-color)]">
 							<b>Salads</b>
 						</Link>
 					</li>

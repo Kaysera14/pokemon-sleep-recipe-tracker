@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 :root {
 	--body-font-family: "Poppins", sans-serif;
 	--header-font-family: "Montserrat", sans-serif;
@@ -15,15 +19,6 @@
 	padding: 0;
 }
 
-a {
-	font-weight: 500;
-	color: #323ade;
-	text-decoration: inherit;
-}
-a:hover {
-	color: #323ade;
-}
-
 body {
 	font-family: var(--body-font-family);
 	overflow: hidden;
@@ -35,17 +30,6 @@ div#root {
 	flex-direction: column;
 	min-width: 320px;
 	height: 100vh;
-	gap: 1rem;
-}
-
-img {
-	display: block;
-}
-
-button {
-	border: none;
-	background-color: transparent;
-	cursor: pointer;
 }
 
 h1 {

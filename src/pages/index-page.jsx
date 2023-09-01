@@ -1,7 +1,10 @@
+import { Main } from "../components/main";
 export function IndexPage() {
 	return (
-		<h2 style={{ color: "var(--quaternary-color)" }}>
-			Welcome to the Recipe Tracker for Pokémon Sleep
-		</h2>
+		<Main>
+			<h2 className="text-[var(--quaternary-color)]">
+				Welcome to the Pokemon Sleep Recipe Tracker
+			</h2>
+		</Main>
 	);
 }

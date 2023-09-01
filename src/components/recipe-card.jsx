@@ -14,42 +14,26 @@ export function RecipeCard({ recipe }) {
 		setIsActive((current) => !current);
 	};
 
-	const [isChecked, setChecked] = useState(true);
+	let [isChecked, setChecked] = useState(false);
 
-	const storeValue = () => {
+	const handleCheck = () => {
 		if (localStorage.getItem(recipe.name) == 1) {
 			localStorage.removeItem(recipe.name);
+			setChecked(false);
 		} else {
 			localStorage.setItem(recipe.name, 1);
-			setSelected(target.checked);
-			setChecked(target.checked);
+			setChecked(true);
 		}
 	};
 
 	return (
 		<ReactCardFlip isFlipped={isActive} flipDirection="horizontal">
 			<article
-				style={{
-					border: "1px solid black",
-					borderRadius: "1rem",
-					display: "flex",
-					justifyContent: "center",
-					padding: "0.5rem",
-					width: "14.87rem",
-					backgroundColor: "var(--secondary-color)",
-					height: "12.5rem",
-				}}
+				className="flex justify-center border border-black rounded-2xl bg-[var(--secondary-color)] py-2 w-[10.75rem] h-52"
 				onClick={handleClick}
 				onMouseEnter={toggleHover}
-				onMouseLeave={toggleHover}
 			>
-				<section
-					style={{
-						display: "flex",
-						flexDirection: "column",
-						alignItems: "center",
-					}}
-				>
+				<section className="flex flex-col items-center justify-between">
 					<h2 style={{ color: "var(--quaternary-color)" }}>{recipe.name}</h2>
 					<img
 						src={recipe.image}
@@ -62,77 +46,25 @@ export function RecipeCard({ recipe }) {
 				</section>
 			</article>
 			<article
-				style={{
-					border: "1px solid black",
-					borderRadius: "1rem",
-					display: "flex",
-					justifyContent: "center",
-					padding: "0.5rem",
-					width: "14.87rem",
-					backgroundColor: "var(--secondary-color)",
-					height: "12.5rem",
-				}}
+				className="flex justify-center border border-black rounded-2xl bg-[var(--secondary-color)] py-2 w-[10.75rem] h-52"
 				onClick={handleClick}
 				onMouseEnter={toggleHover}
-				onMouseLeave={toggleHover}
 			>
-				<section
-					style={{
-						display: "flex",
-						flexDirection: "column",
-						alignItems: "center",
-						height: "inherit",
-						width: "15rem",
-						justifyContent: "space-between",
-					}}
-				>
-					<h2 style={{ color: "var(--quaternary-color)" }}>{recipe.name}</h2>
-					<p
-						style={{
-							width: "10rem",
-							textAlign: "right",
-							color: "var(--quaternary-color)",
-						}}
-					>
-						<b>Total ingredients</b>: {recipe.totalIngredients}
+				<section className="flex flex-col items-center justify-between">
+					<p className="text-[var(--quaternary-color)]">
+						<b>{recipe.totalIngredients} ingredients</b>
 					</p>
-					<p
-						style={{
-							display: "flex",
-							alignItems: "center",
-							width: "inherit",
-							flexWrap: "wrap",
-							justifyContent: "center",
-							color: "var(--quaternary-color)",
-						}}
-					>
+					<p className="text-[var(--quaternary-color)]">
 						{recipe.name.includes("Mixed") ? (
 							<b>No ingredients required</b>
 						) : (
-							<b>Ingredients required:</b>
+							<span className="flex flex-row flex-wrap justify-center items-center max-w-[8.2rem]">
+								<IngredientsRequiredToImages recipes={recipe} />
+							</span>
 						)}
 					</p>
-					<span
-						style={{
-							display: "flex",
-							flexDirection: "row",
-							flexWrap: "wrap",
-							justifyContent: "center",
-							alignItems: "center",
-						}}
-					>
-						<IngredientsRequiredToImages recipes={recipe} />
-					</span>
-					<h3
-						style={{
-							color: "var(--quaternary-color)",
-							display: "flex",
-							flexDirection: "row-reverse",
-							alignItems: "center",
-							height: "4rem",
-						}}
-					>
-						Unlocked?{" "}
+
+					<h3 className="text-[var(--quaternary-color)]">
 						<Checkbox
 							sx={{
 								color: red[900],
@@ -141,11 +73,14 @@ export function RecipeCard({ recipe }) {
 								},
 							}}
 							onClick={handleClick}
-							onChange={storeValue}
+							onChange={handleCheck}
 							checked={
-								localStorage.getItem(recipe.name) == 1 ? isChecked : !isChecked
+								localStorage.getItem(recipe.name) == 1
+									? (isChecked = true)
+									: (isChecked = false)
 							}
 						/>
+						Unlocked?
 					</h3>
 				</section>
 			</article>
