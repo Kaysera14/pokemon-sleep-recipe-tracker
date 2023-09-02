@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 :root {
 	--body-font-family: "Poppins", sans-serif;
 	--header-font-family: "Montserrat", sans-serif;
@@ -29,7 +33,7 @@ div#root {
 	display: flex;
 	flex-direction: column;
 	min-width: 320px;
-	height: 100vh;
+	max-height: calc(var(--vh, 1vh) * 90);
 }
 
 h1 {
