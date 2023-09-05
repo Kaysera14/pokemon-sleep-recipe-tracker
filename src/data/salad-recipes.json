@@ -97,12 +97,11 @@
 	},
 	{
 		"name": "Moomoo Caprese Salad",
-		"totalIngredients": "27",
+		"totalIngredients": "23",
 		"ingredientsRequired": {
 			"moomoomilk": "12",
-			"honey": "5",
 			"pureoil": "5",
-			"snoozytomato": "5"
+			"snoozytomato": "6"
 		},
 		"image": "/assets/salads/moomoocapresesalad.png"
 	},
