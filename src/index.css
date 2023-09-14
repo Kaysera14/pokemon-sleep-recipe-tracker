@@ -29,11 +29,20 @@ body {
 	background-color: var(--primary-color);
 }
 
+@media (max-width: 1023px) {
+	div#root {
+		display: flex;
+		flex-direction: column;
+		min-width: 320px;
+		max-height: calc(var(--vh, 1vh) * 90);
+	}
+}
+
 div#root {
 	display: flex;
 	flex-direction: column;
 	min-width: 320px;
-	max-height: calc(var(--vh, 1vh) * 90);
+	max-height: calc(var(--vh, 1vh) * 100);
 }
 
 h1 {
