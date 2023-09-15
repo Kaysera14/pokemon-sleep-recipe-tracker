@@ -19,6 +19,7 @@
     "react-card-flip": "^1.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
+    "readme-md-generator": "^1.0.0",
     "styled-components": "^5.3.11"
   },
   "devDependencies": {
