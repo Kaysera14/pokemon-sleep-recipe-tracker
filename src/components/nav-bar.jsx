@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export function NavBar() {
 	return (
 		<>
-			<section>
+			<nav className="flex justify-center">
 				<ul
 					className="flex justify-around items-center w-[23rem] h-9 bg-[var(--secondary-color)] list-none 
-					border border-black rounded-full mt-4 md:mt-0 md:w-screen md:rounded-none md:border-0 md:border-b"
+					border border-black rounded-full md:mt-0 md:w-screen md:rounded-none md:border-0 md:border-b"
 				>
 					<li>
 						<Link to="/recipes/curry" className="text-[var(--tertiary-color)]">
@@ -27,7 +27,7 @@ export function NavBar() {
 						</Link>
 					</li>
 				</ul>
-			</section>
+			</nav>
 		</>
 	);
 }
