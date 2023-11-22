@@ -1,12 +1,20 @@
+import { useEffect, useState } from "react";
 import { Main } from "../components/main";
 import { RecipeCard } from "../components/recipe-card";
-import curry from "../data/curry-recipes.json";
+import { curryURL } from "../utils/constants";
+import axios from "axios";
 
 export function CurryRecipes() {
+	const [curry, setCurry] = useState([]);
+
+	useEffect(() => {
+		axios.get(curryURL).then(({ data }) => setCurry(data.data));
+	}, []);
+
 	return (
 		<Main>
-			{curry.map((curry) => {
-				return <RecipeCard key={curry.name} recipe={curry} />;
+			{curry.map(({ id, attributes }) => {
+				return <RecipeCard key={id} recipe={attributes} />;
 			})}
 		</Main>
 	);

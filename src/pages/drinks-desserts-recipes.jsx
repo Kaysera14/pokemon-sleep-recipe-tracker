@@ -1,12 +1,20 @@
+import { useEffect, useState } from "react";
 import { Main } from "../components/main";
 import { RecipeCard } from "../components/recipe-card";
-import drinksdesserts from "../data/drinks-desserts-recipes.json";
+import { dessertsURL } from "../utils/constants";
+import axios from "axios";
 
 export function DrinksDessertsRecipes() {
+	const [desserts, setDesserts] = useState([]);
+
+	useEffect(() => {
+		axios.get(dessertsURL).then(({ data }) => setDesserts(data.data));
+	}, []);
+
 	return (
 		<Main>
-			{drinksdesserts.map((drinksdesserts) => {
-				return <RecipeCard key={drinksdesserts.name} recipe={drinksdesserts} />;
+			{desserts.map(({ id, attributes }) => {
+				return <RecipeCard key={id} recipe={attributes} />;
 			})}
 		</Main>
 	);
